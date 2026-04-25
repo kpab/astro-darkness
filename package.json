@@ -1,7 +1,7 @@
 {
   "name": "astro-darkness",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A dark-themed Astro portfolio/blog template with Three.js particles and modern animations",
   "keywords": [
     "astro",

@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-04-25
+
+### Fixed
+- `cursor: pointer` removed from non-clickable card components (`Card`, `ProjectCard`, `Skills` skill-category, About `service-card`); `BaseLayout` custom-cursor JS selector also no longer treats `.card` as interactive ([#21](https://github.com/kpab/astro-darkness/issues/21))
+- `.post-title` rendering at fallback weight 700 / faux-bold — Google Fonts URL only loaded weights 400-700 while `BlogPostLayout` requested `font-weight: 900`; added 800 / 900 to the loaded weight range ([#22](https://github.com/kpab/astro-darkness/issues/22))
+
+### Changed
+- GitHub Pages deploy workflow trigger restricted to `working` (removed unused `main` entry) to prevent dual-branch deploys overwriting the same environment ([#20](https://github.com/kpab/astro-darkness/issues/20))
+- `__pycache__/` and `*.pyc` added to `.gitignore`; previously tracked `.pyc` cache untracked ([#23](https://github.com/kpab/astro-darkness/issues/23))
+
 ## [1.0.2] - 2026-04-19
 
 ### Fixed
@@ -54,7 +64,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - @astrojs/rss for feed generation
 - @astrojs/sitemap for SEO optimization
 
-[unreleased]: https://github.com/kpab/astro-darkness/compare/v1.0.2...HEAD
+[unreleased]: https://github.com/kpab/astro-darkness/compare/v1.0.3...HEAD
+[1.0.3]: https://github.com/kpab/astro-darkness/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/kpab/astro-darkness/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/kpab/astro-darkness/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/kpab/astro-darkness/releases/tag/v1.0.0
