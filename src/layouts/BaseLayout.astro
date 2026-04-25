@@ -26,7 +26,7 @@ const {
     <!-- Google Fonts: Space Grotesk + DM Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <title>{title}</title>
     <ClientRouter />
   </head>
@@ -86,7 +86,7 @@ const {
       const bindInteractiveHover = () => {
         const cursor = document.querySelector('.cursor-follower') as HTMLElement | null;
         if (!cursor) return;
-        const interactiveElements = document.querySelectorAll('a, button, .card');
+        const interactiveElements = document.querySelectorAll('a, button');
         interactiveElements.forEach((el) => {
           if ((el as any).__cursorHoverBound) return;
           (el as any).__cursorHoverBound = true;
