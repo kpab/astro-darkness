@@ -86,7 +86,7 @@ const {
       const bindInteractiveHover = () => {
         const cursor = document.querySelector('.cursor-follower') as HTMLElement | null;
         if (!cursor) return;
-        const interactiveElements = document.querySelectorAll('a, button, .card');
+        const interactiveElements = document.querySelectorAll('a, button');
         interactiveElements.forEach((el) => {
           if ((el as any).__cursorHoverBound) return;
           (el as any).__cursorHoverBound = true;
