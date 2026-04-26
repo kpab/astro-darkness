@@ -3,7 +3,8 @@
     "allow": [
       "Bash(gh pr *)",
       "Bash(gh api *)",
-      "Bash(gh release *)"
+      "Bash(gh release *)",
+      "Bash(gh issue *)"
     ]
   },
   "enableAllProjectMcpServers": true,
