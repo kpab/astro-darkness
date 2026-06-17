@@ -1,23 +1,41 @@
-# Darkness - Astro Dark Theme
+# Darkness — Astro Portfolio & Blog Theme
 
-A dark-themed Astro portfolio/blog template with Three.js particles and modern animations.
+**The only Astro theme with a live 5,000-particle Three.js background.** A production-ready dark portfolio + blog template with modern typography, smooth animations, and a fully responsive design — built on Astro 5.
 
-[![Version](https://img.shields.io/badge/version-1.0.3-blue)](https://github.com/kpab/astro-darkness/releases/tag/v1.0.3)
+[![GitHub stars](https://img.shields.io/github/stars/kpab/astro-darkness?style=social)](https://github.com/kpab/astro-darkness/stargazers)
+[![Version](https://img.shields.io/github/v/release/kpab/astro-darkness?color=blue)](https://github.com/kpab/astro-darkness/releases)
 [![Astro](https://img.shields.io/badge/Astro-5.0-purple)](https://astro.build/)
 [![Three.js](https://img.shields.io/badge/Three.js-0.160-blue)](https://threejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**[Live Demo](https://kpab.github.io/astro-darkness)**
+**[Live Demo](https://kpab.github.io/astro-darkness)** · **[Get Started](#quick-start)** · **[Star this repo](https://github.com/kpab/astro-darkness)** if it helps you!
 
-## Features
+![Darkness hero](docs/screenshots/home.png)
 
-- **Dark Theme** - Professional dark color palette with blue/purple accents
-- **Three.js Particles** - 5000 particle system with animated 3D effects
-- **Blog System** - Full-featured blog with Content Collections
-- **Portfolio** - Project showcase with featured projects
-- **Responsive** - Mobile-first design with floating navbar
-- **Animations** - Smooth transitions and hover effects
-- **TypeScript** - Type-safe development
+## Deploy in one click
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/kpab/astro-darkness)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kpab/astro-darkness)
+
+## Why Darkness?
+
+Most dark themes are just a flipped color palette. **Darkness ships a real WebGL experience** — an animated 5,000-particle starfield that reacts as you scroll — without sacrificing performance or accessibility.
+
+- **Three.js particle background** — 5,000 animated particles, GPU-accelerated
+- **Blog system** — powered by Astro Content Collections + MDX
+- **Portfolio** — project showcase with featured highlighting
+- **Responsive** — mobile-first design with a floating navbar
+- **Easy theming** — change the whole look from a handful of CSS variables
+- **Astro 5** — ships zero JS by default, sitemap + SEO ready
+- **TypeScript** — type-safe content and components
+
+## Screenshots
+
+| Blog | Projects |
+|------|----------|
+| ![Blog](docs/screenshots/blog.png) | ![Projects](docs/screenshots/projects.png) |
+| **About** | **Mobile** |
+| ![About](docs/screenshots/about.png) | <img src="docs/screenshots/mobile.png" width="220" alt="Mobile view" /> |
 
 ## Quick Start
 
@@ -98,6 +116,10 @@ src/
 - [Three.js](https://threejs.org/) - 3D graphics
 - [TypeScript](https://www.typescriptlang.org/) - Type safety
 - Google Fonts (Space Grotesk + DM Sans)
+
+## Support
+
+If Darkness saved you time, please **[give it a star on GitHub](https://github.com/kpab/astro-darkness)** — it helps others discover the theme and motivates further development.
 
 ## License
 
