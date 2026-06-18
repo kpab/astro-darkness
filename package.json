@@ -1,7 +1,7 @@
 {
   "name": "astro-darkness",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A dark-themed Astro portfolio/blog template with Three.js particles and modern animations",
   "keywords": [
     "astro",
@@ -27,15 +27,18 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.0.0",
-    "@astrojs/rss": "^4.0.0",
-    "@astrojs/sitemap": "^3.2.0",
-    "astro": "^5.1.0",
-    "three": "^0.160.0"
+    "@astrojs/mdx": "^6.0.0",
+    "@astrojs/rss": "^4.0.18",
+    "@astrojs/sitemap": "^3.7.0",
+    "astro": "^6.0.0",
+    "three": "^0.184.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.6",
-    "@types/three": "^0.160.0",
+    "@astrojs/check": "^0.9.9",
+    "@types/three": "^0.184.0",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22.0.0"
   }
 }

@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-06-19
+
+### Changed
+- Upgraded to **Astro 6** (`astro@^6.0.0`, `@astrojs/mdx@^6.0.0`) ([#25](https://github.com/kpab/astro-darkness/issues/25))
+- Updated `@astrojs/rss` to `^4.0.18` and `@astrojs/sitemap` to `^3.7.0`
+- Updated Three.js to `^0.184.0` (and `@types/three`)
+- Updated `@astrojs/check` to `^0.9.9`
+- Migrated content collection schemas to import `z` from `astro/zod` (Zod 4)
+- Bumped CI Node version to 22 and added `engines.node >= 22`
+
 ### Fixed
 - Three.js animation persistence across View Transitions navigation ([#6](https://github.com/kpab/astro-darkness/pull/6))
 
@@ -41,5 +51,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - @astrojs/rss for feed generation
 - @astrojs/sitemap for SEO optimization
 
-[unreleased]: https://github.com/kpab/astro-darkness/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/kpab/astro-darkness/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/kpab/astro-darkness/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/kpab/astro-darkness/releases/tag/v1.0.0

@@ -2,9 +2,9 @@
 
 A dark-themed Astro portfolio/blog template with Three.js particles and modern animations.
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/kpab/astro-darkness/releases/tag/v1.0.0)
-[![Astro](https://img.shields.io/badge/Astro-5.0-purple)](https://astro.build/)
-[![Three.js](https://img.shields.io/badge/Three.js-0.160-blue)](https://threejs.org/)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue)](https://github.com/kpab/astro-darkness/releases/tag/v1.1.0)
+[![Astro](https://img.shields.io/badge/Astro-6.x-purple)](https://astro.build/)
+[![Three.js](https://img.shields.io/badge/Three.js-0.184-blue)](https://threejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **[Live Demo](https://kpab.github.io/astro-darkness)**
@@ -20,6 +20,8 @@ A dark-themed Astro portfolio/blog template with Three.js particles and modern a
 - **TypeScript** - Type-safe development
 
 ## Quick Start
+
+> Requires **Node.js 22+** (Astro 6).
 
 ```bash
 # Clone this template
