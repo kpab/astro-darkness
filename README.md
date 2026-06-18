@@ -1,11 +1,11 @@
 # Darkness — Astro Portfolio & Blog Theme
 
-**The only Astro theme with a live 5,000-particle Three.js background.** A production-ready dark portfolio + blog template with modern typography, smooth animations, and a fully responsive design — built on Astro 5.
+**The only Astro theme with a live 5,000-particle Three.js background.** A production-ready dark portfolio + blog template with modern typography, smooth animations, and a fully responsive design — built on Astro 6.
 
 [![GitHub stars](https://img.shields.io/github/stars/kpab/astro-darkness?style=social)](https://github.com/kpab/astro-darkness/stargazers)
 [![Version](https://img.shields.io/github/v/release/kpab/astro-darkness?color=blue)](https://github.com/kpab/astro-darkness/releases)
-[![Astro](https://img.shields.io/badge/Astro-5.0-purple)](https://astro.build/)
-[![Three.js](https://img.shields.io/badge/Three.js-0.160-blue)](https://threejs.org/)
+[![Astro](https://img.shields.io/badge/Astro-6.x-purple)](https://astro.build/)
+[![Three.js](https://img.shields.io/badge/Three.js-0.184-blue)](https://threejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **[Live Demo](https://kpab.github.io/astro-darkness)** · **[Get Started](#quick-start)** · **[Star this repo](https://github.com/kpab/astro-darkness)** if it helps you!
@@ -26,7 +26,7 @@ Most dark themes are just a flipped color palette. **Darkness ships a real WebGL
 - **Portfolio** — project showcase with featured highlighting
 - **Responsive** — mobile-first design with a floating navbar
 - **Easy theming** — change the whole look from a handful of CSS variables
-- **Astro 5** — ships zero JS by default, sitemap + SEO ready
+- **Astro 6** — ships zero JS by default, sitemap + SEO ready
 - **TypeScript** — type-safe content and components
 
 ## Screenshots
@@ -38,6 +38,8 @@ Most dark themes are just a flipped color palette. **Darkness ships a real WebGL
 | ![About](docs/screenshots/about.png) | <img src="docs/screenshots/mobile.png" width="220" alt="Mobile view" /> |
 
 ## Quick Start
+
+> Requires **Node.js 22+** (Astro 6).
 
 ```bash
 # Clone this template
