@@ -1,6 +1,5 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-import ThreeBackground from '../components/ThreeBackground.astro';
 import Navigation from '../components/Navigation.astro';
 
 interface Props {
@@ -28,13 +27,12 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('en-US', {
 ---
 
 <BaseLayout title={`${title} - Darkness`} description={description}>
-  <ThreeBackground />
   <Navigation />
 
   <article class="blog-post">
     <div class="container">
       <header class="post-header">
-        <a href={`${base}blog`} class="back-link">← Back to Blog</a>
+        <a href={`${base}blog/`} class="back-link">← Back to Blog</a>
         <h1 class="post-title shimmer-text">{title}</h1>
         <div class="post-meta">
           <time class="post-date">{formattedPubDate}</time>

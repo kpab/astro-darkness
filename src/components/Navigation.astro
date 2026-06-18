@@ -14,13 +14,13 @@ const relativePath = currentPath.replace(base.slice(0, -1), '') || '/';
       <a href={base} class:list={['nav-link', { active: relativePath === '/' }]}>
         Home
       </a>
-      <a href={`${base}blog`} class:list={['nav-link', { active: relativePath.startsWith('/blog') }]}>
+      <a href={`${base}blog/`} class:list={['nav-link', { active: relativePath.startsWith('/blog') }]}>
         Blog
       </a>
-      <a href={`${base}projects`} class:list={['nav-link', { active: relativePath === '/projects' }]}>
+      <a href={`${base}projects/`} class:list={['nav-link', { active: relativePath.startsWith('/projects') }]}>
         Projects
       </a>
-      <a href={`${base}about`} class:list={['nav-link', { active: relativePath === '/about' }]}>
+      <a href={`${base}about/`} class:list={['nav-link', { active: relativePath.startsWith('/about') }]}>
         About
       </a>
     </div>
@@ -40,9 +40,9 @@ const relativePath = currentPath.replace(base.slice(0, -1), '') || '/';
 <div class="mobile-menu" id="mobile-menu">
   <div class="mobile-menu-content">
     <a href={base} class:list={['mobile-nav-link', { active: relativePath === '/' }]}>Home</a>
-    <a href={`${base}blog`} class:list={['mobile-nav-link', { active: relativePath.startsWith('/blog') }]}>Blog</a>
-    <a href={`${base}projects`} class:list={['mobile-nav-link', { active: relativePath === '/projects' }]}>Projects</a>
-    <a href={`${base}about`} class:list={['mobile-nav-link', { active: relativePath === '/about' }]}>About</a>
+    <a href={`${base}blog/`} class:list={['mobile-nav-link', { active: relativePath.startsWith('/blog') }]}>Blog</a>
+    <a href={`${base}projects/`} class:list={['mobile-nav-link', { active: relativePath.startsWith('/projects') }]}>Projects</a>
+    <a href={`${base}about/`} class:list={['mobile-nav-link', { active: relativePath.startsWith('/about') }]}>About</a>
   </div>
 </div>
 
@@ -213,21 +213,22 @@ const relativePath = currentPath.replace(base.slice(0, -1), '') || '/';
 </style>
 
 <script>
-  // Mobile menu toggle
-  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-  const mobileMenu = document.getElementById('mobile-menu');
+  document.addEventListener('astro:page-load', () => {
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
 
-  if (mobileMenuBtn && mobileMenu) {
-    mobileMenuBtn.addEventListener('click', () => {
-      mobileMenu.classList.toggle('open');
-    });
-
-    // Close menu when clicking a link
-    const mobileLinks = mobileMenu.querySelectorAll('.mobile-nav-link');
-    mobileLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        mobileMenu.classList.remove('open');
+    if (mobileMenuBtn && mobileMenu) {
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('open');
       });
-    });
-  }
+
+      // Close menu when clicking a link
+      const mobileLinks = mobileMenu.querySelectorAll('.mobile-nav-link');
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.remove('open');
+        });
+      });
+    }
+  });
 </script>

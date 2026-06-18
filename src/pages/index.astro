@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import ThreeBackground from '../components/ThreeBackground.astro';
 import Navigation from '../components/Navigation.astro';
 import Hero from '../components/Hero.astro';
 import Skills from '../components/Skills.astro';
@@ -15,7 +14,6 @@ const recentPosts = allBlogPosts
 ---
 
 <BaseLayout title="Darkness - Web Developer & Creative Coder">
-  <ThreeBackground />
   <Navigation />
   <Hero />
   <Skills />
@@ -36,7 +34,7 @@ const recentPosts = allBlogPosts
         ))}
       </div>
       <div class="view-all">
-        <a href={`${base}blog`} class="btn btn-secondary">
+        <a href={`${base}blog/`} class="btn btn-secondary">
           View All Posts
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <line x1="5" y1="12" x2="19" y2="12"></line>

@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import ThreeBackground from '../../components/ThreeBackground.astro';
 import Navigation from '../../components/Navigation.astro';
 import BlogCard from '../../components/BlogCard.astro';
 
@@ -15,7 +14,6 @@ const sortedPosts = allBlogPosts.sort((a, b) =>
   title="Blog - Darkness"
   description="Articles about web development, Three.js, and dark design"
 >
-  <ThreeBackground />
   <Navigation />
 
   <main class="blog-page">

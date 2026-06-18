@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import ThreeBackground from '../components/ThreeBackground.astro';
 import Navigation from '../components/Navigation.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 
@@ -14,7 +13,6 @@ const otherProjects = allProjects.filter(p => !p.data.featured);
   title="Projects - Darkness"
   description="Portfolio of dark-themed web projects and experiments"
 >
-  <ThreeBackground />
   <Navigation />
 
   <main class="projects-page">

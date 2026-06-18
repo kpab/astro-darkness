@@ -1,6 +1,7 @@
 # build output
 dist/
 .output/
+.astro/
 
 # dependencies
 node_modules/
@@ -24,3 +25,7 @@ pnpm-debug.log*
 
 # vscode setting
 .vscode/
+
+# Python
+__pycache__/
+*.pyc
