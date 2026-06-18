@@ -10,27 +10,27 @@ Darkness
 
 ## Short description (card / one-liner)
 
-The only Astro theme with a live 5,000-particle Three.js background — a dark portfolio + blog template built on Astro 5.
+The only Astro theme with a live 5,000-particle Three.js background — a dark portfolio & blog template, now built on Astro 6.
 
 ## Full description
 
-Darkness is a production-ready dark theme for developers, designers, and creative coders who want their portfolio to feel like an experience, not a template.
+Darkness is a production-ready dark portfolio and blog theme for developers, designers, and creative coders who want their site to feel like an experience, not a template.
 
-Most dark themes are just a flipped color palette. Darkness ships a real WebGL background — an animated 5,000-particle starfield rendered with Three.js — paired with a clean blog and project showcase. It stays fast and responsive, and the entire look can be retuned from a handful of CSS variables.
+Most dark Astro themes are just a flipped color palette. Darkness ships a real WebGL background — an animated 5,000-particle starfield rendered with Three.js — paired with a clean blog and project showcase. It stays fast and fully responsive, and the entire look can be retuned from a handful of CSS variables.
 
 What's inside:
 
-- Animated 5,000-particle Three.js background (GPU-accelerated)
-- Blog powered by Astro Content Collections + MDX
-- Project portfolio with featured highlighting
+- Animated 5,000-particle Three.js (WebGL) background, GPU-accelerated
+- Blog system powered by Astro Content Collections + MDX
+- Project portfolio with featured-project highlighting
 - Floating navigation bar with full mobile support
 - Space Grotesk + DM Sans typography
-- Sitemap + SEO ready, ships zero JS by default
-- TypeScript throughout, type-safe content
+- SEO-ready: automatic sitemap, RSS feed, and zero JS shipped by default
+- TypeScript throughout, with type-safe content schemas
 
 Theme everything from src/styles/global.css — colors, fonts, and accents are all CSS variables. Clone, edit your Markdown, and deploy to Vercel or Netlify in one click.
 
-Updated for Astro v5.
+New in v1.1.0: fully upgraded to Astro 6, with Three.js 0.184, Zod 4 content schemas, and Node.js 22+ support.
 
 ## Badges / tags
 
