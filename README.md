@@ -12,6 +12,10 @@
 
 ![Darkness hero](docs/screenshots/home.png)
 
+> 📇 **Building a directory or listings site?** Check out **[Almanac](https://almanac.p4ni.com)** —
+> a premium Astro + Cloudflare directory theme by the same author, with full-text search,
+> an admin panel, moderated submissions, and monetization built in.
+
 ## Deploy in one click
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/kpab/astro-darkness)
@@ -122,6 +126,15 @@ src/
 ## Support
 
 If Darkness saved you time, please **[give it a star on GitHub](https://github.com/kpab/astro-darkness)** — it helps others discover the theme and motivates further development.
+
+## More themes by kpab
+
+- **[Almanac](https://almanac.p4ni.com)** (premium) — a directory theme on Astro + Cloudflare
+  Workers + D1: bm25 full-text search, admin panel, moderated submissions, and featured-listing
+  monetization. [Get it on Gumroad →](https://kpab.gumroad.com/l/almanac)
+- [astro-haze](https://github.com/kpab/astro-haze) — glassmorphism theme for blogs, portfolios & landing pages
+- [Astro Keel](https://github.com/kpab/astro-keel) — minimal, neutral portfolio + blog theme
+- [Kepler](https://github.com/kpab/astro-kepler) — navy × orange theme for blogs, portfolios & landing pages
 
 ## License
 
